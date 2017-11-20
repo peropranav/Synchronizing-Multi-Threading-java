@@ -7,10 +7,13 @@
 ## Requirements
 -JDK 8 or above
 ## How to Run
--Clone this repository
--Go to this folder through terminal or cmd
--Run javac SyncMulti.java
--java SyncMulti
+1)Clone this repository
+
+2)Go to this folder through terminal or cmd
+
+3)Run javac SyncMulti.java
+
+4)java SyncMulti
 
 ## Comment and uncomment synchronized(account) to see the difference.
 
