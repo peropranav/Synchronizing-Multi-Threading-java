@@ -12,4 +12,4 @@ If raj takes out 700 and the thread switch and asks Simran to enter the amount w
 
          So we use the synchronized block, so that first Thread t1 is completed then only t2 will run...
          
-         ![after sync](https://github.com/peropranav/Synchronizing-Multi-Threading-java/blob/master/afterSync.png)
+         ![Alt text](https://github.com/peropranav/Synchronizing-Multi-Threading-java/blob/master/afterSync.png)
