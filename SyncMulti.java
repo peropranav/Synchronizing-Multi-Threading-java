@@ -45,6 +45,7 @@ class Customer implements Runnable
 
 
 public void run(){
+synchronized(account) {   //comment this
 	Scanner kb=new Scanner(System.in);
 	System.out.println( name + "  " +"Enter the amount to withdraw");
 	int amt=kb.nextInt();
@@ -57,8 +58,11 @@ public void run(){
 	else
 		System.out.println("isSufficientBalance");
 
-
+} //comment this
 } 
+
+
+
 
 }
 
